@@ -1,0 +1,42 @@
+nav {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.subscribe {
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.subscribe:hover {
+  cursor: pointer;
+}
+
+.header-title {
+  text-decoration: underline;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2em;
+  color: var(--font-grey-color);
+}
+
+.search-button :hover {
+  cursor: pointer;
+}
+
+.subscribe,
+.search-button {
+  width: 65px;
+}
